@@ -1,9 +1,9 @@
 body {
     margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 80px 0;
+    //display: flex;
+    //align-items: center;
+    //justify-content: center;
     height: 100vh;
     font-family: Arial, sans-serif;
 }
@@ -15,3 +15,25 @@ body {
 h1 {
     font-size: 24px;
 }
+
+.container-body {
+    border: 3px solid yellow;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; 
+    -o-user-select: none;
+    user-select: none;
+  }
+  
+  .canvas {
+    position: absolute;
+    top: 0;
+  }
+  
+  .form {
+    padding: 20px;
+  }
